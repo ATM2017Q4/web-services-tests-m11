@@ -1,9 +1,9 @@
-package githubgists.service;
+package githubgisttests.service;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.stream.JsonReader;
-import githubgists.entitites.Gist;
+import githubgisttests.entitites.Gist;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;

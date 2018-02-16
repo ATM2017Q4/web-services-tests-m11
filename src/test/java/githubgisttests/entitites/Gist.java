@@ -1,4 +1,4 @@
-package githubgists.entitites;
+package githubgisttests.entitites;
 
 public class Gist {
     private String description;
