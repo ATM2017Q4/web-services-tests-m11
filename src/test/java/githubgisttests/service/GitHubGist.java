@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 public class GitHubGist {
 
-    private String credentials = "tanya-marfel:71e1fda4c9d31378b6180831732500fc75175cd4";
+    private String credentials = "tatsiana-marfel-test:be4f99ad7519dfb18254b25953542eb1fdc6ac44";
     private HttpHeaders httpHeaders;
     private RestTemplate restTemplate = new RestTemplate();
     private String[] gistUrl;
