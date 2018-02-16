@@ -13,14 +13,11 @@ public class Gist {
     }
 
     public static class Files {
-
         private File file;
 
         public File getFile() {
             return file;
         }
-
-
     }
 
     public static class File {

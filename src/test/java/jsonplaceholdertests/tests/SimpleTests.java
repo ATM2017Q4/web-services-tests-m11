@@ -15,10 +15,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class SimpleTests {
-    Gson gson = new Gson();
-    RestTemplate restTemplate = new RestTemplate();
-    ResponseEntity<User[]> response = restTemplate.getForEntity("https://jsonplaceholder.typicode.com/users", User[].class);
-    Logger logger = Logger.getLogger(this.getClass().getName());
+    private Gson gson = new Gson();
+    private RestTemplate restTemplate = new RestTemplate();
+    private ResponseEntity<User[]> response = restTemplate.getForEntity("https://jsonplaceholder.typicode.com/users", User[].class);
+    private Logger logger = Logger.getLogger(this.getClass().getName());
 
     @Test
     public void checkStatusCode() {
