@@ -1,0 +1,8 @@
+{
+  "description": "the description for this gist",
+  "files": {
+    "file": {
+      "content": "Some content"
+    }
+  }
+}
